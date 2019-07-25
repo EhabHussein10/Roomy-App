@@ -1,0 +1,6 @@
+framework module Pods_Roomy_App {
+  umbrella header "Pods-Roomy-App-umbrella.h"
+
+  export *
+  module * { export * }
+}

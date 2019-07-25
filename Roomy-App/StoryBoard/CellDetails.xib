@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellDetail" rowHeight="162" id="KGk-i7-Jjw" customClass="CellDetails" customModule="Roomy_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="161.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="35 pierrepont St #C7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4g-Kc-joV">
+                        <rect key="frame" x="10" y="5" width="190.5" height="27.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$2,500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0r-7B-UJ4">
+                        <rect key="frame" x="288.5" y="15" width="61.5" height="27.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brooklyn, NY 11236" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJH-Ks-koK">
+                        <rect key="frame" x="10" y="32.5" width="153.5" height="23.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="DQ7-yo-3yb">
+                        <rect key="frame" x="10" y="81.5" width="355" height="75"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82v-Zp-1ew">
+                                <rect key="frame" x="0.0" y="26" width="61" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Iax-mZ-Ycl">
+                                <rect key="frame" x="84" y="0.0" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="NNA-gb-tEA"/>
+                                    <constraint firstAttribute="height" constant="75" id="Y9D-ON-E4q"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x5S-fb-34S">
+                                <rect key="frame" x="182" y="0.0" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="El0-Cu-bx2"/>
+                                    <constraint firstAttribute="width" constant="75" id="nfR-BW-NG7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Prn-yF-uDh">
+                                <rect key="frame" x="280" y="0.0" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="MHI-I7-zQJ"/>
+                                    <constraint firstAttribute="height" constant="75" id="ibc-q9-ZHh"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zJH-Ks-koK" firstAttribute="leading" secondItem="j4g-Kc-joV" secondAttribute="leading" id="OB0-OG-qO0"/>
+                    <constraint firstItem="zJH-Ks-koK" firstAttribute="top" secondItem="j4g-Kc-joV" secondAttribute="bottom" id="UWx-bG-fhZ"/>
+                    <constraint firstItem="j4g-Kc-joV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Uh5-pe-AuF"/>
+                    <constraint firstItem="DQ7-yo-3yb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ana-MN-YaB"/>
+                    <constraint firstItem="b0r-7B-UJ4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="g3N-hg-gs5"/>
+                    <constraint firstAttribute="trailing" secondItem="DQ7-yo-3yb" secondAttribute="trailing" constant="10" id="jMV-Hv-Qwg"/>
+                    <constraint firstAttribute="trailing" secondItem="b0r-7B-UJ4" secondAttribute="trailing" constant="25" id="kdi-O3-dDk"/>
+                    <constraint firstAttribute="bottom" secondItem="DQ7-yo-3yb" secondAttribute="bottom" constant="5" id="xxp-xk-yDr"/>
+                    <constraint firstItem="j4g-Kc-joV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="yb3-QF-LTk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellImage" destination="Iax-mZ-Ycl" id="HNP-Ph-q8n"/>
+                <outlet property="cellImage2" destination="x5S-fb-34S" id="f0L-Ah-NXy"/>
+                <outlet property="cellImage3" destination="Prn-yF-uDh" id="kjx-Ec-g5E"/>
+                <outlet property="hotelAdressLbl" destination="zJH-Ks-koK" id="NYm-Qr-B7D"/>
+                <outlet property="hotelInfoLbl" destination="82v-Zp-1ew" id="pmA-Yl-tOA"/>
+                <outlet property="hotelNameLbl" destination="j4g-Kc-joV" id="l97-Ml-s5M"/>
+                <outlet property="pricelabl" destination="b0r-7B-UJ4" id="Qrw-Jh-SJa"/>
+            </connections>
+            <point key="canvasLocation" x="115.21739130434783" y="95.758928571428569"/>
+        </tableViewCell>
+    </objects>
+</document>
