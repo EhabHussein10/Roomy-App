@@ -12,6 +12,8 @@
 		0419167222DD392D002A0560 /* CellDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419167022DD392D002A0560 /* CellDetails.swift */; };
 		0419167322DD392D002A0560 /* CellDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0419167122DD392D002A0560 /* CellDetails.xib */; };
 		0457BF5522DFD2D10039C833 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457BF5422DFD2D10039C833 /* Description.swift */; };
+		049596D3230CE7C8007EB0B7 /* RoomySignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049596D2230CE7C8007EB0B7 /* RoomySignUp.swift */; };
+		049596D5230CE7EF007EB0B7 /* RoomyGetRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049596D4230CE7EF007EB0B7 /* RoomyGetRooms.swift */; };
 		0497FFD222D976A9008489F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497FFD122D976A9008489F4 /* AppDelegate.swift */; };
 		0497FFD422D976A9008489F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497FFD322D976A9008489F4 /* ViewController.swift */; };
 		0497FFD722D976A9008489F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0497FFD522D976A9008489F4 /* Main.storyboard */; };
@@ -19,6 +21,10 @@
 		0497FFE722D98B86008489F4 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497FFE622D98B86008489F4 /* SignIn.swift */; };
 		04C2AD3722DEC50000021DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C2AD3622DEC50000021DC4 /* Assets.xcassets */; };
 		04C2AD3D22DECD4F00021DC4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C2AD3C22DECD4F00021DC4 /* DataService.swift */; };
+		04F3B87E22F50BEE003F6F6C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B87D22F50BEE003F6F6C /* RegisterViewController.swift */; };
+		04FE8CE822F4F9660092D073 /* ConstantsURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8CE722F4F9660092D073 /* ConstantsURL.swift */; };
+		04FE8CEA22F4FA140092D073 /* RoomyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8CE922F4FA140092D073 /* RoomyRouter.swift */; };
+		04FE8CEC22F4FA200092D073 /* RoomySignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FE8CEB22F4FA200092D073 /* RoomySignIn.swift */; };
 		2845502AD113ACB2779F4E72 /* Pods_Roomy_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 477B833BE9F54485D21A71A0 /* Pods_Roomy_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +34,8 @@
 		0419167022DD392D002A0560 /* CellDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetails.swift; sourceTree = "<group>"; };
 		0419167122DD392D002A0560 /* CellDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDetails.xib; sourceTree = "<group>"; };
 		0457BF5422DFD2D10039C833 /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		049596D2230CE7C8007EB0B7 /* RoomySignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomySignUp.swift; sourceTree = "<group>"; };
+		049596D4230CE7EF007EB0B7 /* RoomyGetRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomyGetRooms.swift; sourceTree = "<group>"; };
 		0497FFCE22D976A9008489F4 /* Roomy-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roomy-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0497FFD122D976A9008489F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0497FFD322D976A9008489F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +45,10 @@
 		0497FFE622D98B86008489F4 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		04C2AD3622DEC50000021DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C2AD3C22DECD4F00021DC4 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		04F3B87D22F50BEE003F6F6C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		04FE8CE722F4F9660092D073 /* ConstantsURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsURL.swift; sourceTree = "<group>"; };
+		04FE8CE922F4FA140092D073 /* RoomyRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomyRouter.swift; sourceTree = "<group>"; };
+		04FE8CEB22F4FA200092D073 /* RoomySignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomySignIn.swift; sourceTree = "<group>"; };
 		477B833BE9F54485D21A71A0 /* Pods_Roomy_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roomy_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F32B38D625C6863E0FE66E9 /* Pods-Roomy-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy-App.release.xcconfig"; path = "Target Support Files/Pods-Roomy-App/Pods-Roomy-App.release.xcconfig"; sourceTree = "<group>"; };
 		E6896BC3641D8AB45DDEBAD3 /* Pods-Roomy-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy-App.debug.xcconfig"; path = "Target Support Files/Pods-Roomy-App/Pods-Roomy-App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,6 +69,11 @@
 		0414EB7D22E91DA6003C9CA2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				04FE8CE722F4F9660092D073 /* ConstantsURL.swift */,
+				04FE8CE922F4FA140092D073 /* RoomyRouter.swift */,
+				04FE8CEB22F4FA200092D073 /* RoomySignIn.swift */,
+				049596D2230CE7C8007EB0B7 /* RoomySignUp.swift */,
+				049596D4230CE7EF007EB0B7 /* RoomyGetRooms.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -119,6 +136,7 @@
 				0497FFE622D98B86008489F4 /* SignIn.swift */,
 				0419166E22DD2D12002A0560 /* Details.swift */,
 				0457BF5422DFD2D10039C833 /* Description.swift */,
+				04F3B87D22F50BEE003F6F6C /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,12 +291,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049596D5230CE7EF007EB0B7 /* RoomyGetRooms.swift in Sources */,
 				0497FFD422D976A9008489F4 /* ViewController.swift in Sources */,
+				04FE8CEC22F4FA200092D073 /* RoomySignIn.swift in Sources */,
 				0497FFE722D98B86008489F4 /* SignIn.swift in Sources */,
+				04FE8CEA22F4FA140092D073 /* RoomyRouter.swift in Sources */,
+				049596D3230CE7C8007EB0B7 /* RoomySignUp.swift in Sources */,
 				0419166F22DD2D12002A0560 /* Details.swift in Sources */,
+				04FE8CE822F4F9660092D073 /* ConstantsURL.swift in Sources */,
 				0497FFD222D976A9008489F4 /* AppDelegate.swift in Sources */,
 				0414EB8122E91E15003C9CA2 /* RoomData.swift in Sources */,
 				0457BF5522DFD2D10039C833 /* Description.swift in Sources */,
+				04F3B87E22F50BEE003F6F6C /* RegisterViewController.swift in Sources */,
 				0419167222DD392D002A0560 /* CellDetails.swift in Sources */,
 				04C2AD3D22DECD4F00021DC4 /* DataService.swift in Sources */,
 			);

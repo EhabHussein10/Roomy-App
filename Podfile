@@ -7,6 +7,9 @@ target 'Roomy-App' do
 
   # Pods for Roomy-App
 pod 'IBAnimatable'
+pod 'Alamofire'
+pod 'NVActivityIndicatorView/AppExtension'
+pod 'ObjectMapper', '~> 3.4'
 
 
 end

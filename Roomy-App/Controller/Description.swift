@@ -19,12 +19,10 @@ class Description: UIViewController {
         
         descriptionImg.image = UIImage(named: datapass.imageName)
         descriptionLabl.text = datapass.descriptionInfo
-        
     }
+    
     @IBAction func dismiss(_ sender: UIButton){
         dismiss(animated: true, completion: nil)
     }
-    
-
 }
 

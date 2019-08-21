@@ -13,40 +13,30 @@ class SignIn: UIViewController {
     
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var passWordTextField: UITextField!
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
-    @IBAction func signInBut(_ sender: AnimatableView) {
+    @IBAction func signInAcion(_ sender: AnimatableView) {
         
-        if userNameTextField.text?.isEmpty == true  && passWordTextField.text?.isEmpty == true {
+        if userNameTextField.text?.isEmpty == true  || passWordTextField.text?.isEmpty == true {
            showAlert()
         } else {
            let storyBord = UIStoryboard.init(name: "Main", bundle: nil)
             let detailsViewController = storyBord.instantiateViewController(withIdentifier: "DetailsVC") 
             self.present(detailsViewController, animated: true, completion: nil)
-//            self.navigationController?.pushViewController(detailsViewController, animated: true)
-            
          }
-        
       }
     
     func showAlert() {
         let errorAlert = UIAlertController(title: "Oops!", message: "Both fields are required", preferredStyle: .alert)
-        
         let okayBtn = UIAlertAction(title: "Okay", style: .default, handler: { (action) in
             errorAlert.dismiss(animated: true, completion: nil)
         })
-        
         errorAlert.addAction(okayBtn)
         self.present(errorAlert, animated: true, completion: nil)
-        
     }
-    
-    }
+}
 

@@ -23,9 +23,7 @@ class Details: UIViewController {
         
         contentTableView.delegate = self
         contentTableView.dataSource = self
-
     }
-    
 }
     
 extension Details: UITableViewDataSource {
@@ -57,7 +55,6 @@ extension Details: UITableViewDataSource {
            descrpChoice.datapass = self.imageToPass
         }
     }
-    
 }
 
 extension Details: UITableViewDelegate {
