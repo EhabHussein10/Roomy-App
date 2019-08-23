@@ -29,7 +29,5 @@ struct RoomData {
         self.hotelAdress = hotelAdress
         self.hotelInfo = hotelInfo
         self.descriptionInfo = descriptionInfo
-        
     }
-    
 }

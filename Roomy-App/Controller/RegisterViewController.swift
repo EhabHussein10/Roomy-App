@@ -1,5 +1,5 @@
 //
-//  RegisterVC.swift
+//  RegisterViewController.swift
 //  Roomy-App
 //
 //  Created by Ehab Eletreby on 8/3/19.
