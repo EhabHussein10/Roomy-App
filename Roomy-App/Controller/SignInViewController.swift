@@ -1,5 +1,5 @@
 //
-//  SignIn.swift
+//  SignInViewController.swift
 //  Roomy-App
 //
 //  Created by Ehab Eletreby on 7/13/19.
@@ -27,23 +27,21 @@ class SignInViewController: UIViewController, NVActivityIndicatorViewable {
             
             if email?.isEmpty == true || password?.isEmpty == true {
                 showAlert(message: "Both fields are required", title: "Empty fields!")
-                return
             }
             else if email?.isEmpty == false || password?.isEmpty == true {
                 showAlert(message: "Please enter your password", title: "Empty field!")
-                return
             }
             else if email?.isEmpty == true || password?.isEmpty == false {
                 showAlert(message: "Please enter your email", title: "Empty field!")
-                return
             }
+            
             Login.login(email: email!, password: password!) { (_: Error?, success: Bool) in
                 if success {
                         let storyBord = UIStoryboard.init(name: "Main", bundle: nil)
                         let detailsViewController = storyBord.instantiateViewController(withIdentifier: "Details")
                         self.present(detailsViewController, animated: true, completion: nil)
                     
-                    self.performSegue(withIdentifier: "DetailsSegue", sender: Any?.self)
+//                    self.performSegue(withIdentifier: "DetailsSegue", sender: Any?.self)
                 }
                 else {
                     self.stopAnimating()

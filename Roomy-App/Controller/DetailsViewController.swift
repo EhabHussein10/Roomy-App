@@ -1,5 +1,5 @@
 //
-//  Details.swift
+//  DetailsViewController.swift
 //  Roomy-App
 //
 //  Created by Ehab Eletreby on 7/15/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Details: UIViewController {
+class DetailsViewController: UIViewController {
     @IBOutlet weak var contentTableView: UITableView!
     
     var data = DataService.instance.getData()
@@ -26,7 +26,7 @@ class Details: UIViewController {
     }
 }
     
-extension Details: UITableViewDataSource {
+extension DetailsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
     }
@@ -51,12 +51,12 @@ extension Details: UITableViewDataSource {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let descrpChoice = segue.destination as? Description {
+        if let descrpChoice = segue.destination as? DescriptionViewController {
            descrpChoice.datapass = self.imageToPass
         }
     }
 }
 
-extension Details: UITableViewDelegate {
+extension DetailsViewController: UITableViewDelegate {
     
 }

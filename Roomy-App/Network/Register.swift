@@ -11,8 +11,9 @@ import Alamofire
 import SwiftyJSON
 
 class Register: NSObject {
-    class func register(para: [String: String], completion: @escaping (_ error: Error?, _ success: Bool) -> Void) {
-        let request = RoomyRouter.signUp(para)
+    class func register(name:String, email:String, password:String, completion: @escaping (_ error: Error?, _ success: Bool) -> Void) {
+        let paramters = ["name":name, "email":email, "password":password]
+        let request = RoomyRouter.signUp(paramters)
       
         AF.request(request).validate().responseJSON { response in
             switch response.result {

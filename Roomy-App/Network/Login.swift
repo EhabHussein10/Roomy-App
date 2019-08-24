@@ -10,8 +10,8 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class Network:NSObject {
-    class func login (email:String,password:String, completion: @escaping (Error?,Bool,_ errormessage  :String) -> Void ){
+class Login:NSObject {
+    class func login (email:String,password:String, completion: @escaping (_ error: Error?, _ success: Bool) -> Void ){
         let paramters = ["email":email,"password":password]
         let request = RoomyRouter.signIn(paramters)
         

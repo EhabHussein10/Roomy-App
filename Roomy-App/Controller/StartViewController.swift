@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StartxsViewController.swift
 //  Roomy-App
 //
 //  Created by Ehab Eletreby on 7/13/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class StartViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

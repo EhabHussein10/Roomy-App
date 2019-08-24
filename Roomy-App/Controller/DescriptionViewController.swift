@@ -1,5 +1,5 @@
 //
-//  Description.swift
+//  DescriptionViewController.swift
 //  Roomy-App
 //
 //  Created by Ehab Eletreby on 7/18/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Description: UIViewController {
+class DescriptionViewController: UIViewController {
     @IBOutlet weak var descriptionImg: UIImageView!
     @IBOutlet weak var descriptionLabl: UILabel!
     

@@ -29,6 +29,5 @@ class RoomsRealm: Object, Mappable{
         place              <- map["place"]
         image              <- map["image"]
         roomDescription    <- map["roomDescription"]
-        
     }
 }

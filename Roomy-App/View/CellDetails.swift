@@ -19,7 +19,6 @@ class CellDetails: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-       
     }
     
     func updateCell(roomData: RoomData) {
@@ -32,6 +31,4 @@ class CellDetails: UITableViewCell {
         pricelabl.text = roomData.price
         
     }
-    
-    
 }

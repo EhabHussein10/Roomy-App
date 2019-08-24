@@ -8,7 +8,7 @@ target 'Roomy-App' do
   # Pods for Roomy-App
 pod 'IBAnimatable'
 pod 'Alamofire', '~> 5.0.0-beta.5'
-pod 'NVActivityIndicatorView/AppExtension'
+pod 'NVActivityIndicatorView'
 pod 'ObjectMapper', '~> 3.4'
 pod 'RealmSwift'
 pod 'SwiftyJSON', '~> 4.0'

@@ -8,18 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0414EB8122E91E15003C9CA2 /* RoomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414EB8022E91E15003C9CA2 /* RoomData.swift */; };
-		0419166F22DD2D12002A0560 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419166E22DD2D12002A0560 /* Details.swift */; };
+		0419166F22DD2D12002A0560 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419166E22DD2D12002A0560 /* DetailsViewController.swift */; };
 		0419167222DD392D002A0560 /* CellDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419167022DD392D002A0560 /* CellDetails.swift */; };
 		0419167322DD392D002A0560 /* CellDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0419167122DD392D002A0560 /* CellDetails.xib */; };
-		0457BF5522DFD2D10039C833 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457BF5422DFD2D10039C833 /* Description.swift */; };
+		0457BF5522DFD2D10039C833 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457BF5422DFD2D10039C833 /* DescriptionViewController.swift */; };
 		049596D5230CE7EF007EB0B7 /* GetRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049596D4230CE7EF007EB0B7 /* GetRooms.swift */; };
 		0497FFD222D976A9008489F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497FFD122D976A9008489F4 /* AppDelegate.swift */; };
-		0497FFD422D976A9008489F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497FFD322D976A9008489F4 /* ViewController.swift */; };
+		0497FFD422D976A9008489F4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497FFD322D976A9008489F4 /* StartViewController.swift */; };
 		0497FFD722D976A9008489F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0497FFD522D976A9008489F4 /* Main.storyboard */; };
 		0497FFDC22D976AB008489F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0497FFDA22D976AB008489F4 /* LaunchScreen.storyboard */; };
-		0497FFE722D98B86008489F4 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497FFE622D98B86008489F4 /* SignIn.swift */; };
+		0497FFE722D98B86008489F4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497FFE622D98B86008489F4 /* SignInViewController.swift */; };
 		04A24964230F94D200E4B1FB /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A24963230F94D200E4B1FB /* Connection.swift */; };
-		04A24966230F94E200E4B1FB /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A24965230F94E200E4B1FB /* Validation.swift */; };
 		04A24968230F94EC00E4B1FB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A24967230F94EC00E4B1FB /* Alert.swift */; };
 		04A2496A230F970F00E4B1FB /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A24969230F970F00E4B1FB /* Login.swift */; };
 		04A2496C230F9AE500E4B1FB /* RoomyDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2496B230F9AE500E4B1FB /* RoomyDataBase.swift */; };
@@ -34,20 +33,19 @@
 
 /* Begin PBXFileReference section */
 		0414EB8022E91E15003C9CA2 /* RoomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomData.swift; sourceTree = "<group>"; };
-		0419166E22DD2D12002A0560 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		0419166E22DD2D12002A0560 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		0419167022DD392D002A0560 /* CellDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDetails.swift; sourceTree = "<group>"; };
 		0419167122DD392D002A0560 /* CellDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellDetails.xib; sourceTree = "<group>"; };
-		0457BF5422DFD2D10039C833 /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		0457BF5422DFD2D10039C833 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		049596D4230CE7EF007EB0B7 /* GetRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRooms.swift; sourceTree = "<group>"; };
 		0497FFCE22D976A9008489F4 /* Roomy-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roomy-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0497FFD122D976A9008489F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0497FFD322D976A9008489F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0497FFD322D976A9008489F4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		0497FFD622D976A9008489F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0497FFDB22D976AB008489F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0497FFDD22D976AB008489F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0497FFE622D98B86008489F4 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		0497FFE622D98B86008489F4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		04A24963230F94D200E4B1FB /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
-		04A24965230F94E200E4B1FB /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		04A24967230F94EC00E4B1FB /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		04A24969230F970F00E4B1FB /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		04A2496B230F9AE500E4B1FB /* RoomyDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomyDataBase.swift; sourceTree = "<group>"; };
@@ -141,11 +139,11 @@
 		0497FFE322D98B25008489F4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0497FFD322D976A9008489F4 /* ViewController.swift */,
-				0497FFE622D98B86008489F4 /* SignIn.swift */,
-				0419166E22DD2D12002A0560 /* Details.swift */,
-				0457BF5422DFD2D10039C833 /* Description.swift */,
+				0497FFD322D976A9008489F4 /* StartViewController.swift */,
+				0497FFE622D98B86008489F4 /* SignInViewController.swift */,
 				04F3B87D22F50BEE003F6F6C /* RegisterViewController.swift */,
+				0419166E22DD2D12002A0560 /* DetailsViewController.swift */,
+				0457BF5422DFD2D10039C833 /* DescriptionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				04A24963230F94D200E4B1FB /* Connection.swift */,
-				04A24965230F94E200E4B1FB /* Validation.swift */,
 				04A24967230F94EC00E4B1FB /* Alert.swift */,
 			);
 			path = Extensions;
@@ -312,18 +309,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				049596D5230CE7EF007EB0B7 /* GetRooms.swift in Sources */,
-				0497FFD422D976A9008489F4 /* ViewController.swift in Sources */,
-				0497FFE722D98B86008489F4 /* SignIn.swift in Sources */,
+				0497FFD422D976A9008489F4 /* StartViewController.swift in Sources */,
+				0497FFE722D98B86008489F4 /* SignInViewController.swift in Sources */,
 				04A24968230F94EC00E4B1FB /* Alert.swift in Sources */,
 				04FE8CEA22F4FA140092D073 /* NetworkRouter.swift in Sources */,
-				0419166F22DD2D12002A0560 /* Details.swift in Sources */,
-				04A24966230F94E200E4B1FB /* Validation.swift in Sources */,
+				0419166F22DD2D12002A0560 /* DetailsViewController.swift in Sources */,
 				04FE8CE822F4F9660092D073 /* ConstantsURL.swift in Sources */,
 				04A2496C230F9AE500E4B1FB /* RoomyDataBase.swift in Sources */,
 				04A24964230F94D200E4B1FB /* Connection.swift in Sources */,
 				0497FFD222D976A9008489F4 /* AppDelegate.swift in Sources */,
 				0414EB8122E91E15003C9CA2 /* RoomData.swift in Sources */,
-				0457BF5522DFD2D10039C833 /* Description.swift in Sources */,
+				0457BF5522DFD2D10039C833 /* DescriptionViewController.swift in Sources */,
 				04A2496E230FA0C800E4B1FB /* Register.swift in Sources */,
 				04F3B87E22F50BEE003F6F6C /* RegisterViewController.swift in Sources */,
 				0419167222DD392D002A0560 /* CellDetails.swift in Sources */,
